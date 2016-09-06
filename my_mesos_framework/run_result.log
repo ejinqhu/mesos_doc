@@ -1,0 +1,92 @@
+[root@A5-302-NF8460M3-154 tmp]#  /tmp/my_framework -master 10.142.233.154:8150                        
+master:10.142.233.154:8150, uri:/tmp/my_executor, exeurl:
+I0829 17:16:21.317363 58759 sched.cpp:226] Version: 1.0.0
+I0829 17:16:21.322433 58776 sched.cpp:330] New master detected at master@10.142.233.154:8150
+I0829 17:16:21.323379 58776 sched.cpp:341] No credentials provided. Attempting to register without authentication
+I0829 17:16:21.325438 58776 sched.cpp:743] Framework registered with 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-0210
+Registered into mesos master.
+recv offers number:3
+Index: 0 recv offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4493 with ports(*):[8400-8431, 8433-8567, 8569-8606, 8608-8714, 8716-8861, 8863-8902, 8904-8911, 8913-8937, 8939-9100]; cpus(*):51.5; mem(*):512500; disk(*):838843
+Begin to start task 1 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4493
+Begin to start task 2 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4493
+Begin to start task 3 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4493
+---- Launch task on 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4493
+Index: 1 recv offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4494 with ports(*):[8400-8514, 8516-8562, 8564-8588, 8590-8651, 8653-8697, 8699-8756, 8758-8944, 8946-9100]; cpus(*):56; mem(*):512500; disk(*):838854
+Begin to start task 4 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4494
+Begin to start task 5 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4494
+Begin to start task 6 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4494
+---- Launch task on 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4494
+Index: 2 recv offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4495 with ports(*):[8400-8427, 8429-8584, 8586-8657, 8659-8717, 8719-9100]; cpus(*):57.5; mem(*):513268; disk(*):838854
+Begin to start task 7 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4495
+Begin to start task 8 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4495
+Begin to start task 9 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4495
+---- Launch task on 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4495
+Task 1 is in state TASK_RUNNING
+Task 2 is in state TASK_RUNNING
+Task 3 is in state TASK_RUNNING
+Task 1 is in state TASK_FINISHED
+Task 2 is in state TASK_FINISHED
+Task 3 is in state TASK_FINISHED
+Task 7 is in state TASK_RUNNING
+Task 8 is in state TASK_RUNNING
+Task 9 is in state TASK_RUNNING
+Task 4 is in state TASK_RUNNING
+Task 7 is in state TASK_FINISHED
+Task 5 is in state TASK_RUNNING
+Task 8 is in state TASK_FINISHED
+Task 9 is in state TASK_FINISHED
+Task 6 is in state TASK_RUNNING
+Task 4 is in state TASK_FINISHED
+Task 5 is in state TASK_FINISHED
+Task 6 is in state TASK_FINISHED
+All task completed, total num:9
+I0829 17:16:21.520433 58766 sched.cpp:1987] Asked to stop the driver
+I0829 17:16:21.520516 58766 sched.cpp:1187] Stopping framework '92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-0210'
+I0829 17:16:21.521342 58759 sched.cpp:1987] Asked to stop the driver
+Scheduler destoryed.
+[root@A5-302-NF8460M3-154 tmp]#  /tmp/my_framework -master 10.142.233.154:8150 -uri http://10.142.233.154/my_executor
+master:10.142.233.154:8150, uri:http://10.142.233.154/my_executor, exeurl:http://10.142.233.154/my_executor
+I0829 17:16:28.900801 59063 sched.cpp:226] Version: 1.0.0
+I0829 17:16:28.907796 59080 sched.cpp:330] New master detected at master@10.142.233.154:8150
+I0829 17:16:28.908288 59080 sched.cpp:341] No credentials provided. Attempting to register without authentication
+I0829 17:16:28.911114 59073 sched.cpp:743] Framework registered with 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-0211
+Registered into mesos master.
+recv offers number:3
+Index: 0 recv offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4496 with ports(*):[8400-8431, 8433-8567, 8569-8606, 8608-8714, 8716-8861, 8863-8902, 8904-8911, 8913-8937, 8939-9100]; cpus(*):51.5; mem(*):512500; disk(*):838843
+Begin to start task 1 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4496
+Begin to start task 2 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4496
+Begin to start task 3 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4496
+---- Launch task on 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4496
+Index: 1 recv offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4497 with ports(*):[8400-8427, 8429-8584, 8586-8657, 8659-8717, 8719-9100]; cpus(*):57.5; mem(*):513268; disk(*):838854
+Begin to start task 4 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4497
+Begin to start task 5 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4497
+Begin to start task 6 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4497
+---- Launch task on 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4497
+Index: 2 recv offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4498 with ports(*):[8400-8514, 8516-8562, 8564-8588, 8590-8651, 8653-8697, 8699-8756, 8758-8944, 8946-9100]; cpus(*):56; mem(*):512500; disk(*):838854
+Begin to start task 7 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4498
+Begin to start task 8 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4498
+Begin to start task 9 using offer 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4498
+---- Launch task on 92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-O4498
+Task 7 is in state TASK_RUNNING
+Task 4 is in state TASK_RUNNING
+Task 2 is in state TASK_RUNNING
+Task 3 is in state TASK_RUNNING
+Task 1 is in state TASK_RUNNING
+Task 7 is in state TASK_FINISHED
+Task 9 is in state TASK_RUNNING
+Task 8 is in state TASK_RUNNING
+Task 5 is in state TASK_RUNNING
+Task 4 is in state TASK_FINISHED
+Task 6 is in state TASK_RUNNING
+Task 2 is in state TASK_FINISHED
+Task 3 is in state TASK_FINISHED
+Task 1 is in state TASK_FINISHED
+Task 9 is in state TASK_FINISHED
+Task 8 is in state TASK_FINISHED
+Task 5 is in state TASK_FINISHED
+Task 6 is in state TASK_FINISHED
+All task completed, total num:9
+I0829 17:16:29.385205 59115 sched.cpp:1987] Asked to stop the driver
+I0829 17:16:29.385274 59115 sched.cpp:1187] Stopping framework '92e106e2-ad8b-4491-9cb0-9cd5c9cdb08e-0211'
+I0829 17:16:29.385983 59063 sched.cpp:1987] Asked to stop the driver
+Scheduler destoryed.
