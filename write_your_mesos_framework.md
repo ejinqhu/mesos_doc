@@ -48,7 +48,7 @@ Resource Offer的示意图如下:
 mesos框架的实现分为两部分，一部分是scheduler，另外一部分是executor, 他们与master之间通信都是通过driver来实现的。mesos API已经定义好，按照API说明将对应的函数实现就可以。参看[链接](http://mesos.apache.org/documentation/latest/app-framework-development-guide/ "链接")
 <br>
 请参看
-[完整代码](http://10.142.90.52:8080/alogic/alogic-dcos/tree/master/alogic-dcos-docs/my_mesos_framework "完整代码")
+[完整代码](https://github.com/ejinqhu/mesos_doc/tree/master/my_mesos_framework "完整代码")
 <br>
 ![](img/self_framework_msg.png)
 
