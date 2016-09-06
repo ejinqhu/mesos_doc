@@ -43,7 +43,8 @@ Resource Offer的示意图如下:
  - 已有的框架不能满足需求
  - 为了改造不是运行在Mesos框架，如hadoop
  - 自己开发的产品需要放在mesos上管理运行
-<br> 
+<br>  
+
 ## 2.2	怎么实现一个框架
 mesos框架的实现分为两部分，一部分是scheduler，另外一部分是executor, 他们与master之间通信都是通过driver来实现的。mesos API已经定义好，按照API说明将对应的函数实现就可以。参看[链接](http://mesos.apache.org/documentation/latest/app-framework-development-guide/ "链接")
 <br>
